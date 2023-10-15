@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die();
     } else {
         setcookie("login", $login);
-        header("Location:/First App/page2.html");
+        header("Location:/First App/home.html");
     }
 }
 ?>
