@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "root", "root", "login");
+$link = mysqli_connect("localhost", "root", "", "login");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
